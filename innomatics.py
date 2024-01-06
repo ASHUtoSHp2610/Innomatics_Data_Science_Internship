@@ -19,7 +19,7 @@ print('Movies: ',df_movies.shape)
 print('Rating: ',df_rating.shape)
 print('Tags: ',df_tags.shape)
 
-df_rating['user']
+df_rating['userId'].nunique()
 
 
 
